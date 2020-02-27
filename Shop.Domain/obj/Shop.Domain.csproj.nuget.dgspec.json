@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mr.chayen/Desktop/Shop/Shop.Domain/Shop.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/mr.chayen/Desktop/Shop/Shop.Domain/Shop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mr.chayen/Desktop/Shop/Shop.Domain/Shop.Domain.csproj",
+        "projectName": "Shop.Domain",
+        "projectPath": "/Users/mr.chayen/Desktop/Shop/Shop.Domain/Shop.Domain.csproj",
+        "packagesPath": "/Users/mr.chayen/.nuget/packages/",
+        "outputPath": "/Users/mr.chayen/Desktop/Shop/Shop.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mr.chayen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
